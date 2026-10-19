@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local `npx wrangler pages dev` runs. Never commit .dev.vars.
+ANTHROPIC_API_KEY=sk-ant-...
+APP_PASSCODE=choose-a-passcode
+# ANTHROPIC_MODEL=claude-sonnet-5-5
