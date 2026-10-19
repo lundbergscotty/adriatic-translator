@@ -1,54 +1,1648 @@
 {
-  "version": "0.1-seed",
+  "version": "2026-10-19",
   "terms": [
-    { "hr": "triatlon", "en": "triathlon", "cat": "general sport" },
-    { "hr": "triatlonac / triatlonka", "en": "triathlete", "cat": "general sport" },
-    { "hr": "plivanje", "en": "swim", "cat": "swim" },
-    { "hr": "biciklizam / bicikl", "en": "bike / cycling", "cat": "bike" },
-    { "hr": "trčanje", "en": "run", "cat": "run" },
-    { "hr": "tranzicija", "en": "transition", "cat": "transition", "note": "T1 = plivanje→bicikl, T2 = bicikl→trčanje" },
-    { "hr": "zona", "en": "zone", "cat": "zones/intensity", "note": "Z1–Z5; 'zona dva' = Z2" },
-    { "hr": "prag", "en": "threshold", "cat": "zones/intensity", "note": "laktatni prag = lactate threshold; anaerobni prag = anaerobic threshold" },
-    { "hr": "lagano", "en": "easy", "cat": "zones/intensity" },
-    { "hr": "tempo", "en": "tempo", "cat": "zones/intensity", "note": "loanword, kept" },
-    { "hr": "intervali", "en": "intervals", "cat": "workout structure" },
-    { "hr": "serija", "en": "set", "cat": "workout structure", "note": "serije = sets" },
-    { "hr": "ponavljanje", "en": "rep / repeat", "cat": "workout structure", "note": "ponavljanja = reps" },
-    { "hr": "odmor / pauza", "en": "rest / recovery interval", "cat": "workout structure" },
-    { "hr": "zagrijavanje", "en": "warm-up", "cat": "workout structure" },
-    { "hr": "hlađenje / istrčavanje", "en": "cool-down", "cat": "workout structure" },
-    { "hr": "glavni dio", "en": "main set", "cat": "workout structure" },
-    { "hr": "dugi lagani", "en": "long easy (long ride / long run)", "cat": "workout structure" },
-    { "hr": "brick", "en": "brick", "cat": "workout structure", "note": "bike then run; kept in English" },
-    { "hr": "kadenca", "en": "cadence", "cat": "bike" },
-    { "hr": "vati / W", "en": "watts / W", "cat": "bike" },
-    { "hr": "FTP", "en": "FTP", "cat": "physiology/testing" },
-    { "hr": "puls / otkucaji", "en": "heart rate", "cat": "physiology/testing", "note": "puls 150 = HR 150 bpm" },
-    { "hr": "VO2max", "en": "VO2max", "cat": "physiology/testing" },
-    { "hr": "tempo po kilometru", "en": "pace per km", "cat": "run", "note": "4:30/km" },
-    { "hr": "neopren", "en": "wetsuit", "cat": "equipment" },
-    { "hr": "naočale za plivanje", "en": "goggles", "cat": "equipment" },
-    { "hr": "kaciga", "en": "helmet", "cat": "equipment" },
-    { "hr": "trenažer", "en": "trainer (indoor)", "cat": "equipment" },
-    { "hr": "aero pozicija", "en": "aero position", "cat": "bike" },
-    { "hr": "otvorene vode", "en": "open water", "cat": "swim" },
-    { "hr": "bazen", "en": "pool", "cat": "swim" },
-    { "hr": "gel", "en": "gel", "cat": "nutrition/hydration" },
-    { "hr": "izotonik", "en": "sports drink / electrolyte drink", "cat": "nutrition/hydration" },
-    { "hr": "ugljikohidrati", "en": "carbohydrates / carbs", "cat": "nutrition/hydration" },
-    { "hr": "oporavak", "en": "recovery", "cat": "recovery/injury" },
-    { "hr": "utrka", "en": "race", "cat": "race day" },
-    { "hr": "start / cilj", "en": "start / finish", "cat": "race day" },
-    { "hr": "polovica / half", "en": "half (70.3)", "cat": "race day" },
-    { "hr": "puni Ironman", "en": "full Ironman", "cat": "race day" },
-    { "hr": "plan treninga", "en": "training plan", "cat": "coaching/admin" },
-    { "hr": "tjedan", "en": "week", "cat": "coaching/admin", "note": "tjedna = weeks (gen.)" }
+    {
+      "hr": "plivanje",
+      "en": "swimming",
+      "cat": "swim",
+      "note": "gen. plivanja, loc. plivanju"
+    },
+    {
+      "hr": "kraul / plivanje slobodnim stilom",
+      "en": "freestyle",
+      "cat": "swim"
+    },
+    {
+      "hr": "zaveslaj",
+      "en": "stroke (arm pull)",
+      "cat": "swim",
+      "note": "broj zaveslaja = stroke count; he often misspells \"zavislaj\""
+    },
+    {
+      "hr": "plivanje u neoprenu",
+      "en": "wetsuit swimming",
+      "cat": "swim",
+      "note": "signature camp phrase"
+    },
+    {
+      "hr": "neopren / neoprensko odijelo / plivački neopren",
+      "en": "wetsuit",
+      "cat": "swim",
+      "note": "termalni neopren = thermal wetsuit"
+    },
+    {
+      "hr": "plivanje u otvorenoj vodi",
+      "en": "open water swimming",
+      "cat": "swim"
+    },
+    {
+      "hr": "otvorena voda",
+      "en": "open water",
+      "cat": "swim"
+    },
+    {
+      "hr": "bazen / bazensko plivanje",
+      "en": "pool / pool swimming",
+      "cat": "swim"
+    },
+    {
+      "hr": "plivačke naočale",
+      "en": "goggles",
+      "cat": "swim"
+    },
+    {
+      "hr": "plivačka disalica / disalica",
+      "en": "snorkel",
+      "cat": "swim"
+    },
+    {
+      "hr": "peraje",
+      "en": "fins",
+      "cat": "swim"
+    },
+    {
+      "hr": "plovak",
+      "en": "pull buoy",
+      "cat": "swim"
+    },
+    {
+      "hr": "plivačka pomagala",
+      "en": "swim toys / aids",
+      "cat": "swim"
+    },
+    {
+      "hr": "orijentacija / orijentir",
+      "en": "sighting / sighting landmark",
+      "cat": "swim",
+      "note": "orijentirati se = to sight"
+    },
+    {
+      "hr": "okret oko bove",
+      "en": "buoy turn",
+      "cat": "swim"
+    },
+    {
+      "hr": "struja / plivanje u struju",
+      "en": "current / swimming into the current",
+      "cat": "swim"
+    },
+    {
+      "hr": "valovi / nemirno more",
+      "en": "waves / rough sea",
+      "cat": "swim"
+    },
+    {
+      "hr": "ravno plivanje",
+      "en": "swimming straight",
+      "cat": "swim"
+    },
+    {
+      "hr": "glava iznad vode",
+      "en": "head above water",
+      "cat": "swim",
+      "note": "beginner error"
+    },
+    {
+      "hr": "izlaz iz mora / iz vode",
+      "en": "swim exit",
+      "cat": "swim"
+    },
+    {
+      "hr": "masivni start",
+      "en": "mass start",
+      "cat": "swim"
+    },
+    {
+      "hr": "rolling start",
+      "en": "rolling start",
+      "cat": "swim",
+      "note": "kept in English, inflected: rolling starta"
+    },
+    {
+      "hr": "plovnost / ekstra plovnost",
+      "en": "buoyancy / extra buoyancy",
+      "cat": "swim"
+    },
+    {
+      "hr": "staza plivanja",
+      "en": "swim course",
+      "cat": "swim"
+    },
+    {
+      "hr": "startni blok",
+      "en": "starting block",
+      "cat": "swim"
+    },
+    {
+      "hr": "osjećaj za vodu / senzibilnost u vodi",
+      "en": "feel for the water",
+      "cat": "swim"
+    },
+    {
+      "hr": "poduka iz plivanja",
+      "en": "swim lessons",
+      "cat": "swim"
+    },
+    {
+      "hr": "drafting",
+      "en": "drafting",
+      "cat": "swim",
+      "note": "kept in English, both swim and bike"
+    },
+    {
+      "hr": "temperatura vode",
+      "en": "water temperature",
+      "cat": "swim",
+      "note": "granična za neopren = wetsuit cutoff"
+    },
+    {
+      "hr": "podvodna video analiza",
+      "en": "underwater video analysis",
+      "cat": "swim"
+    },
+    {
+      "hr": "bicikl",
+      "en": "bike",
+      "cat": "bike",
+      "note": "gen. bicikla, instr. biciklom"
+    },
+    {
+      "hr": "vožnja / vožnja biciklom / bicikliranje",
+      "en": "ride / riding / cycling",
+      "cat": "bike"
+    },
+    {
+      "hr": "biciklizam",
+      "en": "cycling (the sport)",
+      "cat": "bike"
+    },
+    {
+      "hr": "vožnja u aero poziciji",
+      "en": "riding in aero position",
+      "cat": "bike",
+      "note": "signature camp phrase"
+    },
+    {
+      "hr": "aero pozicija",
+      "en": "aero position",
+      "cat": "bike"
+    },
+    {
+      "hr": "triatlonski bicikl",
+      "en": "triathlon bike / TT bike",
+      "cat": "bike"
+    },
+    {
+      "hr": "rolling bike / trenažer / sobni bicikl",
+      "en": "indoor trainer / rollers",
+      "cat": "bike",
+      "note": "\"rolling bike\" is his word for the indoor rolling trainer"
+    },
+    {
+      "hr": "pedaliranje / tehnika pedaliranja",
+      "en": "pedaling / pedaling technique",
+      "cat": "bike"
+    },
+    {
+      "hr": "okret pedale",
+      "en": "pedal stroke",
+      "cat": "bike"
+    },
+    {
+      "hr": "povlačenje i potiskanje",
+      "en": "pull and push (pedal stroke)",
+      "cat": "bike"
+    },
+    {
+      "hr": "kadenca",
+      "en": "cadence",
+      "cat": "bike",
+      "note": "also run; bike target \"75-90\", written without unit"
+    },
+    {
+      "hr": "biciklističke cipele i pedale",
+      "en": "cycling shoes and pedals",
+      "cat": "bike"
+    },
+    {
+      "hr": "visina sjedala / sica",
+      "en": "saddle height",
+      "cat": "bike",
+      "note": "sic = colloquial saddle"
+    },
+    {
+      "hr": "brdske dionice",
+      "en": "hill repeats",
+      "cat": "bike",
+      "note": "e.g. 2-8 min on a 5-8% climb"
+    },
+    {
+      "hr": "brdo / uspon / nizbrdica",
+      "en": "hill / climb / descent",
+      "cat": "bike"
+    },
+    {
+      "hr": "ustajanje iz sjedala",
+      "en": "standing out of the saddle",
+      "cat": "bike"
+    },
+    {
+      "hr": "ravnica / valovite ceste / valovita staza",
+      "en": "flat / rolling roads / rolling course",
+      "cat": "bike"
+    },
+    {
+      "hr": "zavjetrina",
+      "en": "draft / shelter from wind",
+      "cat": "bike"
+    },
+    {
+      "hr": "čeoni vjetar",
+      "en": "headwind",
+      "cat": "bike"
+    },
+    {
+      "hr": "kronometarski trening",
+      "en": "time-trial session",
+      "cat": "bike"
+    },
+    {
+      "hr": "grupne vožnje",
+      "en": "group rides",
+      "cat": "bike"
+    },
+    {
+      "hr": "cestovni biciklizam / MTB / gradski bicikl",
+      "en": "road cycling / MTB / city bike",
+      "cat": "bike"
+    },
+    {
+      "hr": "mjenjači / brzine / pogon",
+      "en": "gears / drivetrain",
+      "cat": "bike"
+    },
+    {
+      "hr": "karbonska rama",
+      "en": "carbon frame",
+      "cat": "bike"
+    },
+    {
+      "hr": "tlak u gumama",
+      "en": "tire pressure",
+      "cat": "bike"
+    },
+    {
+      "hr": "kočnice",
+      "en": "brakes",
+      "cat": "bike"
+    },
+    {
+      "hr": "servis / serviser",
+      "en": "bike service / mechanic",
+      "cat": "bike"
+    },
+    {
+      "hr": "bidon",
+      "en": "bottle",
+      "cat": "bike"
+    },
+    {
+      "hr": "kaciga",
+      "en": "helmet",
+      "cat": "bike"
+    },
+    {
+      "hr": "180 km bicikla",
+      "en": "180 km bike",
+      "cat": "bike",
+      "note": "distance pattern \"X km bicikla\""
+    },
+    {
+      "hr": "trčanje",
+      "en": "running",
+      "cat": "run",
+      "note": "gen. trčanja"
+    },
+    {
+      "hr": "trkač / trkači / trkačica",
+      "en": "runner(s)",
+      "cat": "run"
+    },
+    {
+      "hr": "kontinuirano trčanje",
+      "en": "steady continuous run",
+      "cat": "run"
+    },
+    {
+      "hr": "lagano trčanje",
+      "en": "easy run",
+      "cat": "run"
+    },
+    {
+      "hr": "tempo trening / tempo dio",
+      "en": "tempo run / tempo segment",
+      "cat": "run",
+      "note": "max 50% of the day's run time"
+    },
+    {
+      "hr": "trening dionica / dionice",
+      "en": "interval session / repeats",
+      "cat": "run",
+      "note": "dionicama od 1 minutu = 1-minute repeats"
+    },
+    {
+      "hr": "ponavljanja",
+      "en": "repetitions / reps",
+      "cat": "run"
+    },
+    {
+      "hr": "brza trčanja",
+      "en": "fast runs / strides",
+      "cat": "run"
+    },
+    {
+      "hr": "fartlek",
+      "en": "fartlek",
+      "cat": "run",
+      "note": "kept"
+    },
+    {
+      "hr": "trčanje u lagano brdo",
+      "en": "gentle uphill running",
+      "cat": "run"
+    },
+    {
+      "hr": "trčanje nakon bicikla",
+      "en": "run off the bike",
+      "cat": "run",
+      "note": "signature camp phrase"
+    },
+    {
+      "hr": "kombinacija (brick)",
+      "en": "brick",
+      "cat": "run",
+      "note": "he writes \"brick\" in parentheses"
+    },
+    {
+      "hr": "spora i duga trčanja / duga trčanja",
+      "en": "long slow runs / long runs",
+      "cat": "run",
+      "note": "never \"long run\" in English"
+    },
+    {
+      "hr": "kadenca trčanja / broj koraka u minuti",
+      "en": "run cadence / steps per minute",
+      "cat": "run",
+      "note": "target 170 to 180"
+    },
+    {
+      "hr": "predugi korak",
+      "en": "overstriding",
+      "cat": "run"
+    },
+    {
+      "hr": "gaženje na petu",
+      "en": "heel striking",
+      "cat": "run"
+    },
+    {
+      "hr": "udaranje o podlogu",
+      "en": "ground impact / pounding",
+      "cat": "run"
+    },
+    {
+      "hr": "postura / trkaća postura",
+      "en": "posture / running posture",
+      "cat": "run"
+    },
+    {
+      "hr": "rad ruku",
+      "en": "arm swing",
+      "cat": "run"
+    },
+    {
+      "hr": "ekonomično trčanje",
+      "en": "running economy",
+      "cat": "run"
+    },
+    {
+      "hr": "tenisice (za trčanje)",
+      "en": "running shoes",
+      "cat": "run",
+      "note": "never \"cipele\" for runners"
+    },
+    {
+      "hr": "traka za trčanje / indoor traka",
+      "en": "treadmill",
+      "cat": "run"
+    },
+    {
+      "hr": "trail / trail trčanje",
+      "en": "trail running",
+      "cat": "run"
+    },
+    {
+      "hr": "podloga / ravna podloga / neasfaltirana",
+      "en": "surface / flat / unpaved",
+      "cat": "run"
+    },
+    {
+      "hr": "asfalt / beton",
+      "en": "asphalt / concrete",
+      "cat": "run"
+    },
+    {
+      "hr": "nasip / šumska staza",
+      "en": "embankment / forest trail",
+      "cat": "run"
+    },
+    {
+      "hr": "maraton",
+      "en": "marathon",
+      "cat": "run",
+      "note": "42 km trčanja"
+    },
+    {
+      "hr": "izmjenjuj trčanje i hodanje",
+      "en": "alternate running and walking",
+      "cat": "run",
+      "note": "beginner program"
+    },
+    {
+      "hr": "metronom",
+      "en": "metronome",
+      "cat": "run",
+      "note": "for cadence"
+    },
+    {
+      "hr": "žustro / brzo hodanje",
+      "en": "brisk walking",
+      "cat": "run"
+    },
+    {
+      "hr": "tranzicija",
+      "en": "transition",
+      "cat": "transition",
+      "note": "na putu do tranzicije = on the way to transition"
+    },
+    {
+      "hr": "T1 / T2",
+      "en": "T1 / T2",
+      "cat": "transition",
+      "note": "kept"
+    },
+    {
+      "hr": "linija za uzjahivanje / dogovoreno mjesto",
+      "en": "mount line",
+      "cat": "transition",
+      "note": "no fixed Croatian term"
+    },
+    {
+      "hr": "feed zona / okrepna stanica / obskrbna stanica",
+      "en": "aid station",
+      "cat": "transition"
+    },
+    {
+      "hr": "štafeta",
+      "en": "relay",
+      "cat": "transition"
+    },
+    {
+      "hr": "ciljna ravnina / cilj",
+      "en": "finish straight / finish",
+      "cat": "transition"
+    },
+    {
+      "hr": "startni broj",
+      "en": "race number / bib",
+      "cat": "transition"
+    },
+    {
+      "hr": "startna lista",
+      "en": "start list",
+      "cat": "transition"
+    },
+    {
+      "hr": "zona / zone u treningu",
+      "en": "zone / training zones",
+      "cat": "zones/intensity",
+      "note": "written \"zona 3\", \"1. i 2. zona\", \"ZONA 1-2\", \"u 1 zoni\"; never Z1"
+    },
+    {
+      "hr": "prve dvije zone / 1. i 2. zona",
+      "en": "zones 1 and 2",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "intenzitet",
+      "en": "intensity",
+      "cat": "zones/intensity",
+      "note": "often misspelled \"intezitet\""
+    },
+    {
+      "hr": "niskointenzivan (aeroban)",
+      "en": "low-intensity (aerobic)",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "lagano / umjereno / naporno",
+      "en": "easy / moderate / hard",
+      "cat": "zones/intensity",
+      "note": "talk-test tiers"
+    },
+    {
+      "hr": "subjektivni osjećaj intenziteta / RPE",
+      "en": "perceived exertion / RPE",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "vježbanje po osjećaju / po osjećaju",
+      "en": "training by feel / by feel",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "gornja granica intenziteta",
+      "en": "intensity ceiling",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "maksimalni puls",
+      "en": "max heart rate",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "puls",
+      "en": "heart rate",
+      "cat": "zones/intensity",
+      "note": "preferred over \"srčani ritam\"; puls 150 = HR 150"
+    },
+    {
+      "hr": "puls u mirovanju",
+      "en": "resting heart rate",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "otkucaji / ot/min",
+      "en": "beats / bpm",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "aerobni prag",
+      "en": "aerobic threshold",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "aerobno / anaerobno",
+      "en": "aerobic / anaerobic",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "opterećenje",
+      "en": "load",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "vršno opterećenje",
+      "en": "peak load",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "progresivno opterećenje",
+      "en": "progressive overload",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "volumen i intenzitet",
+      "en": "volume and intensity",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "tempo / brzina",
+      "en": "pace / speed",
+      "cat": "zones/intensity",
+      "note": "he uses tempo for pace; never \"pace\""
+    },
+    {
+      "hr": "wati / vati",
+      "en": "watts",
+      "cat": "zones/intensity"
+    },
+    {
+      "hr": "trening",
+      "en": "workout / session / training",
+      "cat": "workout structure",
+      "note": "pl. treninzi"
+    },
+    {
+      "hr": "plan treninga / trening plan",
+      "en": "training plan",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "trening program",
+      "en": "training program",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "raspored treninga",
+      "en": "training schedule",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "zagrijavanje",
+      "en": "warm-up",
+      "cat": "workout structure",
+      "note": "minimalno 10 minuta"
+    },
+    {
+      "hr": "hlađenje / cool down",
+      "en": "cool-down",
+      "cat": "workout structure",
+      "note": "he also writes \"cool down\""
+    },
+    {
+      "hr": "pauza / odmor između intervala",
+      "en": "rest interval",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "pasivan odmor",
+      "en": "passive rest",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "serija",
+      "en": "set",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "izdržaj",
+      "en": "hold",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "dionica",
+      "en": "repeat / interval",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "mikrociklus / ciklus",
+      "en": "microcycle / cycle",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "blok",
+      "en": "block",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "pripremni period",
+      "en": "preparation period / base",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "period prilagodbe",
+      "en": "adaptation period",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "period odmora",
+      "en": "off-season / rest period",
+      "cat": "workout structure",
+      "note": "his term instead of \"taper/off-season\""
+    },
+    {
+      "hr": "sezona natjecanja",
+      "en": "race season",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "satnica / sati treninga tjedno",
+      "en": "weekly hours",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "dan odmora",
+      "en": "rest day",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "svaki drugi dan",
+      "en": "every other day",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "dugi trening / duge distance",
+      "en": "long session",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "planski trening",
+      "en": "structured training",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "kontinuitet",
+      "en": "consistency",
+      "cat": "workout structure",
+      "note": "core method word"
+    },
+    {
+      "hr": "superkompenzacija",
+      "en": "supercompensation",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "ekstra lagan trening",
+      "en": "extra-easy session",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "periodizacija treninga",
+      "en": "training periodization",
+      "cat": "workout structure"
+    },
+    {
+      "hr": "aerobni / anaerobni metabolizam",
+      "en": "aerobic / anaerobic metabolism",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "energetski sustavi",
+      "en": "energy systems",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "kardiovaskularni sustav",
+      "en": "cardiovascular system",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "VO2 max / maksimalni primitak kisika",
+      "en": "VO2max",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "mišićni glikogen",
+      "en": "muscle glycogen",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "izdržljivost",
+      "en": "endurance",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "utreniranost",
+      "en": "fitness level / trained state",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "forma / fizička forma",
+      "en": "form / fitness",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "prilagodba / adaptacija",
+      "en": "adaptation",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "mišićna vlakna",
+      "en": "muscle fibers",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "postotak tjelesne masti",
+      "en": "body fat percentage",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "sastav tijela",
+      "en": "body composition",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "bazalni metabolizam",
+      "en": "basal metabolic rate",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "kapilare",
+      "en": "capillaries",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "imunitet",
+      "en": "immune system",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "kortizol",
+      "en": "cortisol",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "mišićna bol",
+      "en": "muscle soreness",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "trbušno disanje / disanje na nos",
+      "en": "belly breathing / nasal breathing",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "toplinska prilagodba",
+      "en": "heat adaptation",
+      "cat": "physiology/testing",
+      "note": "\"vrućina se trenira\""
+    },
+    {
+      "hr": "znojenje",
+      "en": "sweating",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "dehidracija",
+      "en": "dehydration",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "amplituda pokreta",
+      "en": "range of motion",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "fleksibilnost / gipkost",
+      "en": "flexibility",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "mišićni disbalansi",
+      "en": "muscle imbalances",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "trup / mišići trupa",
+      "en": "core / core muscles",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "gluteus / zdjelica / kukovi",
+      "en": "glutes / pelvis / hips",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "natkoljenica / potkoljenica",
+      "en": "thigh / lower leg",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "tetive / zglobovi",
+      "en": "tendons / joints",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "varijabilnost otkucaja srca (HRV)",
+      "en": "heart rate variability (HRV)",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "spiroergometrijsko testiranje",
+      "en": "spiroergometry / metabolic testing",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "215 minus godine minus 40",
+      "en": "beginner HR ceiling formula",
+      "cat": "physiology/testing"
+    },
+    {
+      "hr": "oprema / osnovna oprema za triatlon",
+      "en": "gear / basic tri gear",
+      "cat": "equipment"
+    },
+    {
+      "hr": "sportski sat / pametni sat",
+      "en": "sports watch / smartwatch",
+      "cat": "data/devices"
+    },
+    {
+      "hr": "pulsmetar / pulsmetar traka",
+      "en": "heart rate monitor / HR strap",
+      "cat": "data/devices"
+    },
+    {
+      "hr": "puls na zapešću",
+      "en": "wrist heart rate",
+      "cat": "data/devices"
+    },
+    {
+      "hr": "GPS / treker",
+      "en": "GPS / tracker",
+      "cat": "data/devices"
+    },
+    {
+      "hr": "štoperica",
+      "en": "stopwatch",
+      "cat": "data/devices"
+    },
+    {
+      "hr": "čeona lampa",
+      "en": "headlamp",
+      "cat": "equipment"
+    },
+    {
+      "hr": "reflektirajući prsluk",
+      "en": "reflective vest",
+      "cat": "equipment"
+    },
+    {
+      "hr": "višeslojna sportska oprema",
+      "en": "layered kit",
+      "cat": "equipment"
+    },
+    {
+      "hr": "navlake za ruke / noge",
+      "en": "arm / leg sleeves",
+      "cat": "equipment"
+    },
+    {
+      "hr": "aplikacija",
+      "en": "app",
+      "cat": "data/devices",
+      "note": "Training Tilt, Garmin, Strava, Suunto named"
+    },
+    {
+      "hr": "utezi / sprave",
+      "en": "weights / machines",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "utrka / natjecanje",
+      "en": "race / competition",
+      "cat": "race day",
+      "note": "gen. utrke"
+    },
+    {
+      "hr": "dan utrke / tjedan utrke",
+      "en": "race day / race week",
+      "cat": "race day"
+    },
+    {
+      "hr": "startati",
+      "en": "to start (a race)",
+      "cat": "race day"
+    },
+    {
+      "hr": "cilj / finiš",
+      "en": "finish",
+      "cat": "race day",
+      "note": "proći kroz cilj = cross the finish line"
+    },
+    {
+      "hr": "nastup / nastupiti",
+      "en": "race start / to race",
+      "cat": "race day"
+    },
+    {
+      "hr": "plasman",
+      "en": "placing / result",
+      "cat": "race day"
+    },
+    {
+      "hr": "osobni rekord / PB",
+      "en": "personal best / PB",
+      "cat": "race day"
+    },
+    {
+      "hr": "rekord staze",
+      "en": "course record",
+      "cat": "race day"
+    },
+    {
+      "hr": "staza / zahtjevna staza / ravna staza",
+      "en": "course / demanding course / flat course",
+      "cat": "race day"
+    },
+    {
+      "hr": "dobna kategorija / dobna skupina",
+      "en": "age group",
+      "cat": "race day",
+      "note": "also just \"kategorija\""
+    },
+    {
+      "hr": "age group / age grouper",
+      "en": "age group / age grouper",
+      "cat": "race day",
+      "note": "kept in English"
+    },
+    {
+      "hr": "PRO / profesionalna kategorija",
+      "en": "PRO",
+      "cat": "race day"
+    },
+    {
+      "hr": "apsolutni poredak / apsolutni podij",
+      "en": "overall ranking / overall podium",
+      "cat": "race day"
+    },
+    {
+      "hr": "podij / podijum / postolje",
+      "en": "podium",
+      "cat": "race day",
+      "note": "three spellings"
+    },
+    {
+      "hr": "finišer / završiti utrku",
+      "en": "finisher / to finish the race",
+      "cat": "race day"
+    },
+    {
+      "hr": "DNF",
+      "en": "DNF",
+      "cat": "race day"
+    },
+    {
+      "hr": "vremenski limit",
+      "en": "cutoff",
+      "cat": "race day"
+    },
+    {
+      "hr": "kvalifikacija / kvalificirati se",
+      "en": "qualification / to qualify",
+      "cat": "race day"
+    },
+    {
+      "hr": "slot / slotovi",
+      "en": "slot(s)",
+      "cat": "race day",
+      "note": "Kona/70.3 Worlds slots"
+    },
+    {
+      "hr": "half distanca / polu Ironman / 70.3",
+      "en": "half distance / 70.3",
+      "cat": "race day",
+      "note": "loc. \"half distanci\""
+    },
+    {
+      "hr": "duga distanca / Ironman distanca",
+      "en": "full distance / full Ironman",
+      "cat": "race day"
+    },
+    {
+      "hr": "olimpijski triatlon",
+      "en": "Olympic-distance triathlon",
+      "cat": "race day"
+    },
+    {
+      "hr": "duatlon",
+      "en": "duathlon",
+      "cat": "race day"
+    },
+    {
+      "hr": "taktika",
+      "en": "tactics",
+      "cat": "race day"
+    },
+    {
+      "hr": "prijave / kotizacija",
+      "en": "registration / entry fee",
+      "cat": "race day"
+    },
+    {
+      "hr": "briefing",
+      "en": "briefing",
+      "cat": "race day",
+      "note": "he spells \"breefing\""
+    },
+    {
+      "hr": "organizator",
+      "en": "race organizer",
+      "cat": "race day"
+    },
+    {
+      "hr": "teški uvjeti",
+      "en": "tough conditions",
+      "cat": "race day"
+    },
+    {
+      "hr": "Svjetsko prvenstvo / državno prvenstvo",
+      "en": "World Championship / national championship",
+      "cat": "race day"
+    },
+    {
+      "hr": "rezervna utrka",
+      "en": "backup race",
+      "cat": "race day"
+    },
+    {
+      "hr": "strategija utrke",
+      "en": "race strategy",
+      "cat": "race day"
+    },
+    {
+      "hr": "prehrana",
+      "en": "nutrition / diet",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "plan prehrane",
+      "en": "nutrition plan",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "ugljikohidrati",
+      "en": "carbohydrates / carbs",
+      "cat": "nutrition/hydration",
+      "note": "often misspelled \"ugljikohidata\""
+    },
+    {
+      "hr": "masti / proteini",
+      "en": "fats / protein",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "kalorije / kcal",
+      "en": "calories",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "kalorijski deficit",
+      "en": "calorie deficit",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "suplementacija / suplementi",
+      "en": "supplementation / supplements",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "elektroliti / minerali",
+      "en": "electrolytes / minerals",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "natrij / kalij / magnezij",
+      "en": "sodium / potassium / magnesium",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "hidratacija / nadoknada tekućine",
+      "en": "hydration / rehydration",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "izotonik / sportski napitak",
+      "en": "isotonic drink / sports drink",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "gel / gelovi",
+      "en": "gel / gels",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "kofein",
+      "en": "caffeine",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "obrok",
+      "en": "meal",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "šejk",
+      "en": "shake",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "50 do 70 grama ugljikohidrata na sat",
+      "en": "50 to 70 g carbs per hour",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "pola litre vode na sat treninga",
+      "en": "half a liter of water per training hour",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "500 mg soli na sat",
+      "en": "500 mg salt per hour",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "probava",
+      "en": "digestion",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "mršavljenje",
+      "en": "weight loss",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "tjelesna težina",
+      "en": "body weight",
+      "cat": "nutrition/hydration"
+    },
+    {
+      "hr": "oporavak / regeneracija",
+      "en": "recovery / regeneration",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "odmor",
+      "en": "rest",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "aktivni odmor / potpuni odmor",
+      "en": "active rest / complete rest",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "san / kvaliteta sna",
+      "en": "sleep / sleep quality",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "istezanje",
+      "en": "stretching",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "masaža / sauna / vruća kupka",
+      "en": "massage / sauna / hot bath",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "pretreniranost",
+      "en": "overtraining",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "umor",
+      "en": "fatigue",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "ozljeda / povreda",
+      "en": "injury",
+      "cat": "recovery/injury",
+      "note": "both words used"
+    },
+    {
+      "hr": "bez ozljeda",
+      "en": "injury-free",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "prevencija ozljeda",
+      "en": "injury prevention",
+      "cat": "recovery/injury"
+    },
+    {
+      "hr": "mjesec dana bez treninga",
+      "en": "a month off training",
+      "cat": "recovery/injury",
+      "note": "his post-Ironman advice"
+    },
+    {
+      "hr": "trener / glavni trener",
+      "en": "coach / head coach",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "individualni pristup",
+      "en": "individual approach",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "povratna informacija",
+      "en": "feedback",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "promjene na kraju tjedna",
+      "en": "changes at the end of the week",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "osobni trening / 1-1 trening",
+      "en": "personal training / one-on-one",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "procjena stanja i kondicije",
+      "en": "fitness assessment",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "analiza početnog stanja",
+      "en": "initial assessment",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "kratkoročni / dugoročni cilj",
+      "en": "short-term / long-term goal",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "sportski cilj",
+      "en": "sport goal",
+      "cat": "coaching/admin",
+      "note": "very frequent"
+    },
+    {
+      "hr": "B plan / rezervni plan",
+      "en": "plan B / backup plan",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "balans",
+      "en": "balance",
+      "cat": "coaching/admin",
+      "note": "core method word"
+    },
+    {
+      "hr": "sportaš / sportašica",
+      "en": "athlete (m / f)",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "početnik / napredni / iskusan",
+      "en": "beginner / advanced / experienced",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "rekreativac",
+      "en": "recreational athlete",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "upitnik",
+      "en": "questionnaire",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "trening kamp / vikend trening kamp",
+      "en": "training camp / weekend camp",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "Hrvatski triatlon savez",
+      "en": "Croatian Triathlon Federation",
+      "cat": "coaching/admin"
+    },
+    {
+      "hr": "javiti se",
+      "en": "to get in touch / check in",
+      "cat": "coaching/admin",
+      "note": "javi se = get in touch"
+    },
+    {
+      "hr": "triatlon / triatlonac / triatlonka",
+      "en": "triathlon / triathlete (m / f)",
+      "cat": "general sport"
+    },
+    {
+      "hr": "Ironman / Ironmani",
+      "en": "Ironman / Ironman finishers",
+      "cat": "general sport",
+      "note": "plural used for people"
+    },
+    {
+      "hr": "tjelovježba / vježbanje",
+      "en": "exercise",
+      "cat": "general sport"
+    },
+    {
+      "hr": "kretanje",
+      "en": "movement",
+      "cat": "general sport",
+      "note": "kontinuitet kretanja = keep moving consistently"
+    },
+    {
+      "hr": "vrhunski sport / vrhunski sportaš",
+      "en": "elite sport / elite athlete",
+      "cat": "general sport"
+    },
+    {
+      "hr": "motivacija",
+      "en": "motivation",
+      "cat": "general sport"
+    },
+    {
+      "hr": "disciplina / tri discipline",
+      "en": "discipline / the three disciplines",
+      "cat": "general sport"
+    },
+    {
+      "hr": "natjecatelj",
+      "en": "competitor",
+      "cat": "general sport"
+    },
+    {
+      "hr": "upornost / strpljivost / dosljednost",
+      "en": "persistence / patience / consistency",
+      "cat": "general sport"
+    },
+    {
+      "hr": "napredak / napredovati",
+      "en": "progress / to progress",
+      "cat": "general sport"
+    },
+    {
+      "hr": "izazov",
+      "en": "challenge",
+      "cat": "general sport"
+    },
+    {
+      "hr": "teretana",
+      "en": "gym",
+      "cat": "general sport"
+    },
+    {
+      "hr": "čučanj / sklek / iskorak / podizanje zdjelice",
+      "en": "squat / push-up / lunge / glute bridge",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "vježbe za trup",
+      "en": "core exercises",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "trening snage",
+      "en": "strength training",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "trening stabilizacije",
+      "en": "stability training",
+      "cat": "strength/mobility"
+    },
+    {
+      "hr": "planinarenje / hiking",
+      "en": "hiking",
+      "cat": "general sport"
+    }
   ],
   "phrases": [
-    { "hr": "Danas lagano, zona dva, sat vremena.", "en": "Easy today, zone 2, one hour." },
-    { "hr": "Odvozi 3x(10' na pragu + 5' lagano).", "en": "Ride 3x(10' at threshold + 5' easy)." },
-    { "hr": "Glavni dio: 10x100 m na 1:45.", "en": "Main set: 10x100 m on 1:45." },
-    { "hr": "Nakon bicikla odmah 20 minuta trčanja, brick.", "en": "Right after the bike, 20 minutes of running, brick." },
-    { "hr": "Ovaj tjedan smanjujemo volumen, utrka je u subotu.", "en": "We're cutting volume this week, the race is Saturday." }
+    {
+      "hr": "Uvijek slušaj svoje tijelo.",
+      "en": "Always listen to your body."
+    },
+    {
+      "hr": "Ne preskači zagrijavanje.",
+      "en": "Don't skip the warm-up."
+    },
+    {
+      "hr": "Isteži se nakon treninga, nikada prije.",
+      "en": "Stretch after training, never before."
+    },
+    {
+      "hr": "Odmor je pasivan, bez kretanja.",
+      "en": "Rest is passive, no moving around."
+    },
+    {
+      "hr": "Odradi lakši trening ili otiđi u dugu šetnju.",
+      "en": "Do an easier session or go for a long walk."
+    },
+    {
+      "hr": "Ako si iscrpljen, odmor je dio napretka.",
+      "en": "If you're wrecked, rest is part of progress."
+    },
+    {
+      "hr": "Uvijek možeš prilagoditi intenzitet i prebaciti se na osjećaj.",
+      "en": "You can always back off the intensity and go by feel."
+    },
+    {
+      "hr": "Bitno je zadržati kontinuitet.",
+      "en": "The key is consistency."
+    },
+    {
+      "hr": "Nemoj biti nestrpljiv.",
+      "en": "Don't be impatient."
+    },
+    {
+      "hr": "Manje je više.",
+      "en": "Less is more."
+    },
+    {
+      "hr": "Tempo dio ne smije prelaziti 50% vremena trčanja toga dana.",
+      "en": "Tempo work shouldn't be more than 50% of that day's run time."
+    },
+    {
+      "hr": "Početnici kreću s dionicama od 1 minute.",
+      "en": "Beginners start with 1-minute repeats."
+    },
+    {
+      "hr": "Na brdu ćeš lakše podići intenzitet uz manje udaranja o podlogu.",
+      "en": "Uphill you can raise intensity with less pounding."
+    },
+    {
+      "hr": "Trčanje ograniči na maksimalno 30 minuta.",
+      "en": "Cap the run at 30 minutes."
+    },
+    {
+      "hr": "Nemoj trčati dan za danom.",
+      "en": "Don't run on back-to-back days."
+    },
+    {
+      "hr": "Drži kadencu između 170 i 180 koraka u minuti.",
+      "en": "Keep cadence between 170 and 180 steps per minute."
+    },
+    {
+      "hr": "Drži kukove, trup i glavu u ravnini.",
+      "en": "Keep hips, torso and head in line."
+    },
+    {
+      "hr": "Nauči plivati ravno, disati i orijentirati se.",
+      "en": "Learn to swim straight, breathe and sight."
+    },
+    {
+      "hr": "Što je voda hladnija, to sporije plivaj.",
+      "en": "The colder the water, the slower you swim."
+    },
+    {
+      "hr": "Drži se obale i plivaj u skupini.",
+      "en": "Stay close to shore and swim in a group."
+    },
+    {
+      "hr": "Pedaliranje nije samo pritiskanje pedale prema dolje.",
+      "en": "Pedaling isn't just pushing down."
+    },
+    {
+      "hr": "Prije svake vožnje provjeri tlak u gumama i kočnice.",
+      "en": "Check tire pressure and brakes before every ride."
+    },
+    {
+      "hr": "Koristi izotonik na treningu.",
+      "en": "Use a sports drink in training."
+    },
+    {
+      "hr": "Nemoj gladovati na treningu.",
+      "en": "Don't go hungry in training."
+    },
+    {
+      "hr": "Pij prije, za vrijeme i nakon treninga.",
+      "en": "Drink before, during and after training."
+    },
+    {
+      "hr": "Jedan trening tjedno odradi u vrućini.",
+      "en": "Do one session a week in the heat."
+    },
+    {
+      "hr": "Smanji trajanje treninga za 20-30%, a zadrži planirani intenzitet.",
+      "en": "Cut the duration 20-30% but keep the planned intensity."
+    },
+    {
+      "hr": "Postavi gornju granicu intenziteta.",
+      "en": "Set an intensity ceiling."
+    },
+    {
+      "hr": "Odaberi dvije utrke, jedna je uvijek rezerva.",
+      "en": "Pick two races, one is always the backup."
+    },
+    {
+      "hr": "Zaboravi na utrku do 48 sati prije starta.",
+      "en": "Forget about the race until 48 hours before the start."
+    },
+    {
+      "hr": "Odluku donesi brzo i drži je se do kraja.",
+      "en": "Decide fast and stick with it to the end."
+    },
+    {
+      "hr": "Nakon Ironmana savjetujem minimalno mjesec dana bez treninga.",
+      "en": "After an Ironman I recommend at least a month off."
+    },
+    {
+      "hr": "Plan nije Biblija, prilagođavaj ga dnevno.",
+      "en": "The plan isn't the Bible, adjust it daily."
+    },
+    {
+      "hr": "Mirna glava, jake noge.",
+      "en": "Calm head, strong legs."
+    },
+    {
+      "hr": "Uz moju podršku ćeš to razvaliti!",
+      "en": "With my support you'll smash it!"
+    },
+    {
+      "hr": "Ne zaboravi mi javiti rezultate!",
+      "en": "Don't forget to send me your results!"
+    },
+    {
+      "hr": "Javi se da složimo plan.",
+      "en": "Get in touch so we can put a plan together."
+    },
+    {
+      "hr": "Sve je moguće!",
+      "en": "Anything is possible!"
+    }
   ]
 }

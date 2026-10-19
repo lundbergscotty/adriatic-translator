@@ -1,0 +1,314 @@
+# Source: adriaticcoaching.com (Dejan's own usage). Format: hr | en | category | note
+# Categories: swim, bike, run, transition, zones/intensity, workout structure, physiology/testing, equipment, race day, nutrition/hydration, recovery/injury, strength/mobility, coaching/admin, data/devices, weather/terrain, general sport
+
+## swim
+plivanje | swimming | swim | gen. plivanja, loc. plivanju
+kraul / plivanje slobodnim stilom | freestyle | swim |
+zaveslaj | stroke (arm pull) | swim | broj zaveslaja = stroke count; he often misspells "zavislaj"
+plivanje u neoprenu | wetsuit swimming | swim | signature camp phrase
+neopren / neoprensko odijelo / plivački neopren | wetsuit | swim | termalni neopren = thermal wetsuit
+plivanje u otvorenoj vodi | open water swimming | swim |
+otvorena voda | open water | swim |
+bazen / bazensko plivanje | pool / pool swimming | swim |
+plivačke naočale | goggles | swim |
+plivačka disalica / disalica | snorkel | swim |
+peraje | fins | swim |
+plovak | pull buoy | swim |
+plivačka pomagala | swim toys / aids | swim |
+orijentacija / orijentir | sighting / sighting landmark | swim | orijentirati se = to sight
+okret oko bove | buoy turn | swim |
+struja / plivanje u struju | current / swimming into the current | swim |
+valovi / nemirno more | waves / rough sea | swim |
+ravno plivanje | swimming straight | swim |
+glava iznad vode | head above water | swim | beginner error
+izlaz iz mora / iz vode | swim exit | swim |
+masivni start | mass start | swim |
+rolling start | rolling start | swim | kept in English, inflected: rolling starta
+plovnost / ekstra plovnost | buoyancy / extra buoyancy | swim |
+staza plivanja | swim course | swim |
+startni blok | starting block | swim |
+osjećaj za vodu / senzibilnost u vodi | feel for the water | swim |
+poduka iz plivanja | swim lessons | swim |
+drafting | drafting | swim | kept in English, both swim and bike
+temperatura vode | water temperature | swim | granična za neopren = wetsuit cutoff
+podvodna video analiza | underwater video analysis | swim |
+
+## bike
+bicikl | bike | bike | gen. bicikla, instr. biciklom
+vožnja / vožnja biciklom / bicikliranje | ride / riding / cycling | bike |
+biciklizam | cycling (the sport) | bike |
+vožnja u aero poziciji | riding in aero position | bike | signature camp phrase
+aero pozicija | aero position | bike |
+triatlonski bicikl | triathlon bike / TT bike | bike |
+rolling bike / trenažer / sobni bicikl | indoor trainer / rollers | bike | "rolling bike" is his word for the indoor rolling trainer
+pedaliranje / tehnika pedaliranja | pedaling / pedaling technique | bike |
+okret pedale | pedal stroke | bike |
+povlačenje i potiskanje | pull and push (pedal stroke) | bike |
+kadenca | cadence | bike | also run; bike target "75-90", written without unit
+biciklističke cipele i pedale | cycling shoes and pedals | bike |
+visina sjedala / sica | saddle height | bike | sic = colloquial saddle
+brdske dionice | hill repeats | bike | e.g. 2-8 min on a 5-8% climb
+brdo / uspon / nizbrdica | hill / climb / descent | bike |
+ustajanje iz sjedala | standing out of the saddle | bike |
+ravnica / valovite ceste / valovita staza | flat / rolling roads / rolling course | bike |
+zavjetrina | draft / shelter from wind | bike |
+čeoni vjetar | headwind | bike |
+kronometarski trening | time-trial session | bike |
+grupne vožnje | group rides | bike |
+cestovni biciklizam / MTB / gradski bicikl | road cycling / MTB / city bike | bike |
+mjenjači / brzine / pogon | gears / drivetrain | bike |
+karbonska rama | carbon frame | bike |
+tlak u gumama | tire pressure | bike |
+kočnice | brakes | bike |
+servis / serviser | bike service / mechanic | bike |
+bidon | bottle | bike |
+kaciga | helmet | bike |
+180 km bicikla | 180 km bike | bike | distance pattern "X km bicikla"
+
+## run
+trčanje | running | run | gen. trčanja
+trkač / trkači / trkačica | runner(s) | run |
+kontinuirano trčanje | steady continuous run | run |
+lagano trčanje | easy run | run |
+tempo trening / tempo dio | tempo run / tempo segment | run | max 50% of the day's run time
+trening dionica / dionice | interval session / repeats | run | dionicama od 1 minutu = 1-minute repeats
+ponavljanja | repetitions / reps | run |
+brza trčanja | fast runs / strides | run |
+fartlek | fartlek | run | kept
+trčanje u lagano brdo | gentle uphill running | run |
+trčanje nakon bicikla | run off the bike | run | signature camp phrase
+kombinacija (brick) | brick | run | he writes "brick" in parentheses
+spora i duga trčanja / duga trčanja | long slow runs / long runs | run | never "long run" in English
+kadenca trčanja / broj koraka u minuti | run cadence / steps per minute | run | target 170 to 180
+predugi korak | overstriding | run |
+gaženje na petu | heel striking | run |
+udaranje o podlogu | ground impact / pounding | run |
+postura / trkaća postura | posture / running posture | run |
+rad ruku | arm swing | run |
+ekonomično trčanje | running economy | run |
+tenisice (za trčanje) | running shoes | run | never "cipele" for runners
+traka za trčanje / indoor traka | treadmill | run |
+trail / trail trčanje | trail running | run |
+podloga / ravna podloga / neasfaltirana | surface / flat / unpaved | run |
+asfalt / beton | asphalt / concrete | run |
+nasip / šumska staza | embankment / forest trail | run |
+maraton | marathon | run | 42 km trčanja
+izmjenjuj trčanje i hodanje | alternate running and walking | run | beginner program
+metronom | metronome | run | for cadence
+žustro / brzo hodanje | brisk walking | run |
+
+## transition / race logistics
+tranzicija | transition | transition | na putu do tranzicije = on the way to transition
+T1 / T2 | T1 / T2 | transition | kept
+linija za uzjahivanje / dogovoreno mjesto | mount line | transition | no fixed Croatian term
+feed zona / okrepna stanica / obskrbna stanica | aid station | transition |
+štafeta | relay | transition |
+ciljna ravnina / cilj | finish straight / finish | transition |
+startni broj | race number / bib | transition |
+startna lista | start list | transition |
+
+## zones / intensity
+zona / zone u treningu | zone / training zones | zones/intensity | written "zona 3", "1. i 2. zona", "ZONA 1-2", "u 1 zoni"; never Z1
+prve dvije zone / 1. i 2. zona | zones 1 and 2 | zones/intensity |
+intenzitet | intensity | zones/intensity | often misspelled "intezitet"
+niskointenzivan (aeroban) | low-intensity (aerobic) | zones/intensity |
+lagano / umjereno / naporno | easy / moderate / hard | zones/intensity | talk-test tiers
+subjektivni osjećaj intenziteta / RPE | perceived exertion / RPE | zones/intensity |
+vježbanje po osjećaju / po osjećaju | training by feel / by feel | zones/intensity |
+gornja granica intenziteta | intensity ceiling | zones/intensity |
+maksimalni puls | max heart rate | zones/intensity |
+puls | heart rate | zones/intensity | preferred over "srčani ritam"; puls 150 = HR 150
+puls u mirovanju | resting heart rate | zones/intensity |
+otkucaji / ot/min | beats / bpm | zones/intensity |
+aerobni prag | aerobic threshold | zones/intensity |
+aerobno / anaerobno | aerobic / anaerobic | zones/intensity |
+opterećenje | load | zones/intensity |
+vršno opterećenje | peak load | zones/intensity |
+progresivno opterećenje | progressive overload | zones/intensity |
+volumen i intenzitet | volume and intensity | zones/intensity |
+tempo / brzina | pace / speed | zones/intensity | he uses tempo for pace; never "pace"
+wati / vati | watts | zones/intensity |
+
+## workout structure
+trening | workout / session / training | workout structure | pl. treninzi
+plan treninga / trening plan | training plan | workout structure |
+trening program | training program | workout structure |
+raspored treninga | training schedule | workout structure |
+zagrijavanje | warm-up | workout structure | minimalno 10 minuta
+hlađenje / cool down | cool-down | workout structure | he also writes "cool down"
+pauza / odmor između intervala | rest interval | workout structure |
+pasivan odmor | passive rest | workout structure |
+serija | set | workout structure |
+izdržaj | hold | workout structure |
+dionica | repeat / interval | workout structure |
+mikrociklus / ciklus | microcycle / cycle | workout structure |
+blok | block | workout structure |
+pripremni period | preparation period / base | workout structure |
+period prilagodbe | adaptation period | workout structure |
+period odmora | off-season / rest period | workout structure | his term instead of "taper/off-season"
+sezona natjecanja | race season | workout structure |
+satnica / sati treninga tjedno | weekly hours | workout structure |
+dan odmora | rest day | workout structure |
+svaki drugi dan | every other day | workout structure |
+dugi trening / duge distance | long session | workout structure |
+planski trening | structured training | workout structure |
+kontinuitet | consistency | workout structure | core method word
+superkompenzacija | supercompensation | workout structure |
+ekstra lagan trening | extra-easy session | workout structure |
+periodizacija treninga | training periodization | workout structure |
+
+## physiology / testing
+aerobni / anaerobni metabolizam | aerobic / anaerobic metabolism | physiology/testing |
+energetski sustavi | energy systems | physiology/testing |
+kardiovaskularni sustav | cardiovascular system | physiology/testing |
+VO2 max / maksimalni primitak kisika | VO2max | physiology/testing |
+mišićni glikogen | muscle glycogen | physiology/testing |
+izdržljivost | endurance | physiology/testing |
+utreniranost | fitness level / trained state | physiology/testing |
+forma / fizička forma | form / fitness | physiology/testing |
+prilagodba / adaptacija | adaptation | physiology/testing |
+mišićna vlakna | muscle fibers | physiology/testing |
+postotak tjelesne masti | body fat percentage | physiology/testing |
+sastav tijela | body composition | physiology/testing |
+bazalni metabolizam | basal metabolic rate | physiology/testing |
+kapilare | capillaries | physiology/testing |
+imunitet | immune system | physiology/testing |
+kortizol | cortisol | physiology/testing |
+mišićna bol | muscle soreness | physiology/testing |
+trbušno disanje / disanje na nos | belly breathing / nasal breathing | physiology/testing |
+toplinska prilagodba | heat adaptation | physiology/testing | "vrućina se trenira"
+znojenje | sweating | physiology/testing |
+dehidracija | dehydration | physiology/testing |
+amplituda pokreta | range of motion | physiology/testing |
+fleksibilnost / gipkost | flexibility | physiology/testing |
+mišićni disbalansi | muscle imbalances | physiology/testing |
+trup / mišići trupa | core / core muscles | strength/mobility |
+gluteus / zdjelica / kukovi | glutes / pelvis / hips | strength/mobility |
+natkoljenica / potkoljenica | thigh / lower leg | strength/mobility |
+tetive / zglobovi | tendons / joints | strength/mobility |
+varijabilnost otkucaja srca (HRV) | heart rate variability (HRV) | physiology/testing |
+spiroergometrijsko testiranje | spiroergometry / metabolic testing | physiology/testing |
+215 minus godine minus 40 | beginner HR ceiling formula | physiology/testing |
+
+## equipment / devices
+oprema / osnovna oprema za triatlon | gear / basic tri gear | equipment |
+sportski sat / pametni sat | sports watch / smartwatch | data/devices |
+pulsmetar / pulsmetar traka | heart rate monitor / HR strap | data/devices |
+puls na zapešću | wrist heart rate | data/devices |
+GPS / treker | GPS / tracker | data/devices |
+štoperica | stopwatch | data/devices |
+čeona lampa | headlamp | equipment |
+reflektirajući prsluk | reflective vest | equipment |
+višeslojna sportska oprema | layered kit | equipment |
+navlake za ruke / noge | arm / leg sleeves | equipment |
+aplikacija | app | data/devices | Training Tilt, Garmin, Strava, Suunto named
+utezi / sprave | weights / machines | strength/mobility |
+
+## race day
+utrka / natjecanje | race / competition | race day | gen. utrke
+dan utrke / tjedan utrke | race day / race week | race day |
+startati | to start (a race) | race day |
+cilj / finiš | finish | race day | proći kroz cilj = cross the finish line
+nastup / nastupiti | race start / to race | race day |
+plasman | placing / result | race day |
+osobni rekord / PB | personal best / PB | race day |
+rekord staze | course record | race day |
+staza / zahtjevna staza / ravna staza | course / demanding course / flat course | race day |
+dobna kategorija / dobna skupina | age group | race day | also just "kategorija"
+age group / age grouper | age group / age grouper | race day | kept in English
+PRO / profesionalna kategorija | PRO | race day |
+apsolutni poredak / apsolutni podij | overall ranking / overall podium | race day |
+podij / podijum / postolje | podium | race day | three spellings
+finišer / završiti utrku | finisher / to finish the race | race day |
+DNF | DNF | race day |
+vremenski limit | cutoff | race day |
+kvalifikacija / kvalificirati se | qualification / to qualify | race day |
+slot / slotovi | slot(s) | race day | Kona/70.3 Worlds slots
+half distanca / polu Ironman / 70.3 | half distance / 70.3 | race day | loc. "half distanci"
+duga distanca / Ironman distanca | full distance / full Ironman | race day |
+olimpijski triatlon | Olympic-distance triathlon | race day |
+duatlon | duathlon | race day |
+taktika | tactics | race day |
+prijave / kotizacija | registration / entry fee | race day |
+briefing | briefing | race day | he spells "breefing"
+organizator | race organizer | race day |
+teški uvjeti | tough conditions | race day |
+Svjetsko prvenstvo / državno prvenstvo | World Championship / national championship | race day |
+rezervna utrka | backup race | race day |
+strategija utrke | race strategy | race day |
+
+## nutrition / hydration
+prehrana | nutrition / diet | nutrition/hydration |
+plan prehrane | nutrition plan | nutrition/hydration |
+ugljikohidrati | carbohydrates / carbs | nutrition/hydration | often misspelled "ugljikohidata"
+masti / proteini | fats / protein | nutrition/hydration |
+kalorije / kcal | calories | nutrition/hydration |
+kalorijski deficit | calorie deficit | nutrition/hydration |
+suplementacija / suplementi | supplementation / supplements | nutrition/hydration |
+elektroliti / minerali | electrolytes / minerals | nutrition/hydration |
+natrij / kalij / magnezij | sodium / potassium / magnesium | nutrition/hydration |
+hidratacija / nadoknada tekućine | hydration / rehydration | nutrition/hydration |
+izotonik / sportski napitak | isotonic drink / sports drink | nutrition/hydration |
+gel / gelovi | gel / gels | nutrition/hydration |
+kofein | caffeine | nutrition/hydration |
+obrok | meal | nutrition/hydration |
+šejk | shake | nutrition/hydration |
+50 do 70 grama ugljikohidrata na sat | 50 to 70 g carbs per hour | nutrition/hydration |
+pola litre vode na sat treninga | half a liter of water per training hour | nutrition/hydration |
+500 mg soli na sat | 500 mg salt per hour | nutrition/hydration |
+probava | digestion | nutrition/hydration |
+mršavljenje | weight loss | nutrition/hydration |
+tjelesna težina | body weight | nutrition/hydration |
+
+## recovery / injury
+oporavak / regeneracija | recovery / regeneration | recovery/injury |
+odmor | rest | recovery/injury |
+aktivni odmor / potpuni odmor | active rest / complete rest | recovery/injury |
+san / kvaliteta sna | sleep / sleep quality | recovery/injury |
+istezanje | stretching | recovery/injury |
+masaža / sauna / vruća kupka | massage / sauna / hot bath | recovery/injury |
+pretreniranost | overtraining | recovery/injury |
+umor | fatigue | recovery/injury |
+ozljeda / povreda | injury | recovery/injury | both words used
+bez ozljeda | injury-free | recovery/injury |
+prevencija ozljeda | injury prevention | recovery/injury |
+mjesec dana bez treninga | a month off training | recovery/injury | his post-Ironman advice
+
+## coaching / admin
+trener / glavni trener | coach / head coach | coaching/admin |
+individualni pristup | individual approach | coaching/admin |
+povratna informacija | feedback | coaching/admin |
+promjene na kraju tjedna | changes at the end of the week | coaching/admin |
+osobni trening / 1-1 trening | personal training / one-on-one | coaching/admin |
+procjena stanja i kondicije | fitness assessment | coaching/admin |
+analiza početnog stanja | initial assessment | coaching/admin |
+kratkoročni / dugoročni cilj | short-term / long-term goal | coaching/admin |
+sportski cilj | sport goal | coaching/admin | very frequent
+B plan / rezervni plan | plan B / backup plan | coaching/admin |
+balans | balance | coaching/admin | core method word
+sportaš / sportašica | athlete (m / f) | coaching/admin |
+početnik / napredni / iskusan | beginner / advanced / experienced | coaching/admin |
+rekreativac | recreational athlete | coaching/admin |
+upitnik | questionnaire | coaching/admin |
+trening kamp / vikend trening kamp | training camp / weekend camp | coaching/admin |
+Hrvatski triatlon savez | Croatian Triathlon Federation | coaching/admin |
+javiti se | to get in touch / check in | coaching/admin | javi se = get in touch
+
+## general sport
+triatlon / triatlonac / triatlonka | triathlon / triathlete (m / f) | general sport |
+Ironman / Ironmani | Ironman / Ironman finishers | general sport | plural used for people
+tjelovježba / vježbanje | exercise | general sport |
+kretanje | movement | general sport | kontinuitet kretanja = keep moving consistently
+vrhunski sport / vrhunski sportaš | elite sport / elite athlete | general sport |
+motivacija | motivation | general sport |
+disciplina / tri discipline | discipline / the three disciplines | general sport |
+natjecatelj | competitor | general sport |
+upornost / strpljivost / dosljednost | persistence / patience / consistency | general sport |
+napredak / napredovati | progress / to progress | general sport |
+izazov | challenge | general sport |
+teretana | gym | general sport |
+čučanj / sklek / iskorak / podizanje zdjelice | squat / push-up / lunge / glute bridge | strength/mobility |
+vježbe za trup | core exercises | strength/mobility |
+trening snage | strength training | strength/mobility |
+trening stabilizacije | stability training | strength/mobility |
+planinarenje / hiking | hiking | general sport |

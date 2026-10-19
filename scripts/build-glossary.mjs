@@ -1,0 +1,64 @@
+// Builds shared/glossary.json from the pipe-separated files in research/.
+// Usage: node scripts/build-glossary.mjs
+// Term files: research/terms-*.txt   lines: hr | en | category | note
+// Phrase files: research/phrases-*.txt lines: hr | en
+// Earlier files win on duplicate hr terms (terms-dejan.txt is read first).
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { join, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const researchDir = join(root, 'research')
+const out = join(root, 'shared', 'glossary.json')
+
+const ORDER = ['terms-dejan.txt'] // priority files first, then the rest alphabetically
+const files = readdirSync(researchDir)
+const termFiles = [
+  ...ORDER.filter(f => files.includes(f)),
+  ...files.filter(f => f.startsWith('terms-') && f.endsWith('.txt') && !ORDER.includes(f)).sort(),
+]
+const phraseFiles = files.filter(f => f.startsWith('phrases-') && f.endsWith('.txt')).sort()
+
+const norm = s => s.toLowerCase().replace(/\s+/g, ' ').trim()
+
+const terms = []
+const seen = new Map()
+let dupes = 0
+for (const f of termFiles) {
+  const lines = readFileSync(join(researchDir, f), 'utf8').split('\n')
+  for (const raw of lines) {
+    const line = raw.trim()
+    if (!line || line.startsWith('#')) continue
+    const parts = line.split('|').map(p => p.trim())
+    if (parts.length < 3) { console.warn(`[${f}] skipped (need hr|en|cat): ${line}`); continue }
+    const [hr, en, cat, note] = parts
+    if (!hr || !en || !cat) continue
+    const key = norm(hr)
+    if (seen.has(key)) { dupes++; continue }
+    seen.set(key, f)
+    const t = { hr, en, cat }
+    if (note) t.note = note
+    terms.push(t)
+  }
+}
+
+const phrases = []
+for (const f of phraseFiles) {
+  const lines = readFileSync(join(researchDir, f), 'utf8').split('\n')
+  for (const raw of lines) {
+    const line = raw.trim()
+    if (!line || line.startsWith('#')) continue
+    const [hr, en] = line.split('|').map(p => p.trim())
+    if (hr && en) phrases.push({ hr, en })
+  }
+}
+
+const cats = {}
+for (const t of terms) cats[t.cat] = (cats[t.cat] || 0) + 1
+
+const json = { version: new Date().toISOString().slice(0, 10), terms, phrases }
+writeFileSync(out, JSON.stringify(json, null, 2) + '\n')
+console.log(`wrote ${out}`)
+console.log(`terms: ${terms.length} (dupes skipped: ${dupes}) from ${termFiles.join(', ')}`)
+console.log(`phrases: ${phrases.length} from ${phraseFiles.join(', ')}`)
+console.log('by category:', cats)
