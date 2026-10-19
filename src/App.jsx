@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import Orb from './components/Orb.jsx'
 import { useSpeech, speak, hasVoiceFor } from './lib/useSpeech.js'
 import { useMicLevel } from './lib/useMicLevel.js'
-import { translate, getPasscode, setPasscode } from './lib/api.js'
+import { translate, setPasscode } from './lib/api.js'
 
 const UI = {
   hr: {
@@ -99,7 +99,8 @@ export default function App() {
   const [err, setErr] = useState(null)
   const [auto, setAuto] = useState(true)
   const [copied, setCopied] = useState(false)
-  const [needPass, setNeedPass] = useState(!getPasscode())
+  // Only ask for a passcode if the server rejects a request (APP_PASSCODE set in Cloudflare).
+  const [needPass, setNeedPass] = useState(false)
   const [passInput, setPassInput] = useState('')
   const [passBad, setPassBad] = useState(false)
 
