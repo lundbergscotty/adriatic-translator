@@ -39,7 +39,6 @@ export async function onRequestPost({ request, env }) {
   const payload = {
     model: env.ANTHROPIC_MODEL || 'claude-sonnet-5-5',
     max_tokens: 1200,
-    temperature: 0.2,
     system: [
       { type: 'text', text: systemPrompt(), cache_control: { type: 'ephemeral' } },
     ],
