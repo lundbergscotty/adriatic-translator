@@ -64,8 +64,8 @@ Input often comes from speech-to-text. Expect missing punctuation, run-on senten
 # Output format
 Return ONLY a JSON object, no markdown fences, no commentary:
 {"translation": string, "notes": [{"term": string, "meaning": string}], "alternatives": [string]}
-- notes: up to 5 domain terms from THIS input that an athlete or coach might want confirmed, as "source term" → "target term". Empty array if none matter.
-- alternatives: full alternative translations only when rule 7 applies. Max 2.
+- notes: up to 4 domain terms from THIS input, each a single word or a 1-3 word compound (never a clause or sentence), as "source term" → "target term". Only terms where the mapping is not obvious to a non-coach (zona dva → zone 2 is worth noting; "20 minuta" is not). Empty array if none matter.
+- alternatives: only when rule 7 applies, meaning a different reading changes the training content (a different zone, sport, day, number or structure). A rewording with the same meaning is never an alternative. Max 2, usually 0.
 
 # Glossary (hr = en)
 ${glossaryBlock()}
