@@ -1,54 +1,85 @@
 @import "tailwindcss";
 
-/* Colors and type lifted from adriaticcoaching.com (theme v2 default.css) */
+/* Brand: adriaticcoaching.com blue + yellow, black on white. Applied like a product, not a 2018 theme. */
 @theme {
-  --color-adriatic: #00AFF0;
-  --color-adriatic-hover: #02afed;
-  --color-adriatic-yellow: #fff200;
+  --color-blue: #00AFF0;
+  --color-blue-deep: #0077C8;
+  --color-blue-ink: #04161F;
+  --color-yellow: #FFF200;
   --color-ink: #000000;
-  --color-muted: #898989;
-  --color-rule: #CCCCCC;
-  --font-sans: Arial, Helvetica, sans-serif;
+  --color-muted: #5B6470;
+  --color-line: #E3EAF0;
+  --color-mist: #F3F8FB;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
-html {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+html { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+body { background: #fff; color: #000; min-height: 100vh; }
 
-body {
-  background: #fff;
-  color: #000;
-  min-height: 100vh;
+/* Buttons */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors duration-200 cursor-pointer select-none;
 }
+.btn:disabled { @apply opacity-40 cursor-not-allowed; }
+.btn-primary { @apply bg-blue text-white; }
+.btn-primary:hover:not(:disabled) { background: #0098D6; }
+.btn-ghost { @apply bg-mist text-ink; }
+.btn-ghost:hover:not(:disabled) { background: #E6F2F9; }
+.btn-text { @apply text-muted; }
+.btn-text:hover:not(:disabled) { @apply text-blue-deep; }
 
-/* Square, uppercase buttons like the site's submit button */
-.ac-btn {
-  @apply inline-flex items-center justify-center uppercase font-bold text-white bg-adriatic transition-colors duration-300 cursor-pointer select-none disabled:opacity-40 disabled:cursor-not-allowed;
-}
-.ac-btn:hover:not(:disabled) {
-  color: #fff200;
-}
-.ac-btn-outline {
-  @apply inline-flex items-center justify-center uppercase font-bold text-ink bg-white border border-ink transition-colors duration-300 cursor-pointer select-none disabled:opacity-40 disabled:cursor-not-allowed;
-}
-.ac-btn-outline:hover:not(:disabled) {
-  color: #02afed;
-  border-color: #02afed;
-}
-
-/* Listening pulse on the mic button */
-@keyframes ac-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(0, 175, 240, 0.55); }
-  70% { box-shadow: 0 0 0 18px rgba(0, 175, 240, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(0, 175, 240, 0); }
-}
-.ac-listening {
-  animation: ac-pulse 1.4s infinite;
-  background: #02afed;
-}
-
-textarea:focus, input:focus {
+/* Focus */
+:where(button, textarea, input, [tabindex]):focus-visible {
   outline: 2px solid #00AFF0;
-  outline-offset: 0;
+  outline-offset: 3px;
+  border-radius: 6px;
 }
+textarea:focus-visible { outline: none; }
+
+/* Orb halo: slow idle glow, yellow-tinged pulse while listening */
+.orb-wrap {
+  position: relative;
+  border-radius: 9999px;
+  box-shadow: 0 18px 60px rgba(0, 175, 240, 0.28), 0 2px 10px rgba(4, 22, 31, 0.25);
+  transition: transform 220ms ease, box-shadow 400ms ease;
+}
+.orb-wrap:hover { transform: translateY(-2px); }
+.orb-wrap:active { transform: scale(0.98); }
+.orb-wrap.listening {
+  box-shadow: 0 22px 70px rgba(0, 175, 240, 0.45), 0 0 0 10px rgba(255, 242, 0, 0.22), 0 2px 10px rgba(4, 22, 31, 0.25);
+}
+@keyframes ring {
+  0%   { transform: scale(1);    opacity: 0.55; }
+  100% { transform: scale(1.55); opacity: 0; }
+}
+.orb-wrap.listening::before,
+.orb-wrap.listening::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  border: 2px solid rgba(0, 175, 240, 0.55);
+  animation: ring 1.8s ease-out infinite;
+  pointer-events: none;
+}
+.orb-wrap.listening::after { animation-delay: 0.9s; border-color: rgba(255, 242, 0, 0.6); }
+@media (prefers-reduced-motion: reduce) {
+  .orb-wrap.listening::before, .orb-wrap.listening::after { animation: none; }
+}
+
+/* Segmented control */
+.seg { @apply inline-flex rounded-full bg-mist p-1; }
+.seg button { @apply rounded-full px-3 py-1.5 text-[13px] font-semibold text-muted cursor-pointer transition-colors duration-150; }
+.seg button[aria-pressed="true"] { @apply bg-white text-ink shadow-[0_1px_3px_rgba(4,22,31,0.12)]; }
+
+/* Cards */
+.panel {
+  background: #fff;
+  border: 1px solid #E3EAF0;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 175, 240, 0.07);
+}
+
+/* Live transcript placeholder caret */
+@keyframes blink { 50% { opacity: 0; } }
+.caret::after { content: ""; display: inline-block; width: 2px; height: 1.1em; background: #00AFF0; margin-left: 2px; vertical-align: -2px; animation: blink 1s step-end infinite; }
