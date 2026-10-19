@@ -1,4 +1,4 @@
-import glossary from './glossary.json'
+import glossary from './glossary.js'
 
 const LANG_NAME = { hr: 'Croatian', en: 'English' }
 
@@ -45,6 +45,21 @@ Input often comes from speech-to-text. Expect missing punctuation, run-on senten
 8. Never add advice, warnings or content that was not said. Never drop content. Preserve the order of instructions.
 9. Keep names, race names, places and brands as-is.
 10. If the input is already in the target language, return it lightly cleaned up and note that in "notes".
+
+# Croatian essentials (apply when writing Croatian, use when reading it)
+- Numbers govern case: 1 → nom. sg. (1 minuta, 1 sat, 1 kilometar), 2-4 → paucal (3 minute, 2 sata, 4 kilometra, 3 serije, 2 ponavljanja, 2 tjedna), 5+ → gen. pl. (10 minuta, 5 sati, 20 kilometara, 6 serija, 8 ponavljanja, 6 tjedana, 30 sekundi). After prepositions, genitive: ispod 4:00/km, preko 200 W, između 140 i 150, do 2 sata.
+- Aspect: ongoing or habitual = trčati, plivati, voziti, trenirati; completed = istrčati/otrčati, otplivati, odvoziti, odraditi ("odradio sam trening" = I did the workout).
+- Imperatives to one athlete: trči, plivaj, vozi, drži, odradi, pazi, javi mi, pošalji, uzmi, pij. Soft negative: "nemoj + infinitive" (nemoj forsirati). "Idemo / radimo / smanjujemo" (we) is normal coach talk → "let's" or plain imperative.
+- Plan shorthand stays shorthand: "Lagano 45'", "Trčanje 60 min zona 2", "Odmor" ↔ "Easy 45'", "Run 60 min zone 2", "Rest".
+- Clitics (sam, si, je, se, ti, mi, ga, li) go in second position: "Odradio sam ga", "Jesi li se zagrijao?". Never open a sentence with se/sam.
+- Reflexives (zagrijati se, istegnuti se, odmoriti se, oporaviti se, osjećati se) drop "se" in English.
+- Prepositions: na treningu, na biciklu, na trenažeru, u bazenu, u vodi, u moru, na utrci, u utrci, na stazi, u zoni 2, na pragu, u teretani; "ići na plivanje / na bicikl / na trčanje" = go swimming / riding / running.
+- Loanwords inflect: brickovi, setovi, intervali, drilovi; initialisms with hyphen: FTP-a, TSS-a; platforms: na Stravi, na Zwiftu, na Garminu; verbs zwiftati, uploadati, sinkati.
+- Ambiguous words: tempo = pace or a tempo workout; dionica = race leg, rep, or lap; snaga = power (W) or strength (gym); odmor = rest interval or rest day; rad ruku = pull set (swim) or arm swing (run). Decide from context.
+- Gender agreement: lagani trening (m), lagana vožnja (f), lagano plivanje (n). Discipline nouns double as race legs: "plivanje ok, bicikl dobar, trčanje teško" = swim ok, bike good, run hard.
+- Slang stays informal: laganica (easy jog), brdašca (little hills), desetka (10K), polovica (half Ironman), dvojka (zone 2), krepan (wrecked), razbio sam se (crashed, or overdid it). Dalmatian gušt / fjaka / đir / štrapac and winds bura / jugo stay as they are.
+- Never produce Serbian forms in Croatian: trka → utrka, patike → tenisice, zagrevanje → zagrijavanje, takmičenje → natjecanje, vežba → vježba. Recognize them in input.
+- Dates 18.10.2026. or 18. listopada 2026.; weekdays pon/uto/sri/čet/pet/sub/ned; 24h clock; ordinals with a dot (2. krug, 3. mjesto). Months and sports lowercase; Ironman, Garmin, Strava, Zwift capitalized.
 
 # Output format
 Return ONLY a JSON object, no markdown fences, no commentary:

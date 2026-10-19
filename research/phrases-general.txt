@@ -1,0 +1,45 @@
+# Common coaching sentences, general Croatian coaching register. Format: hr | en
+Danas lagano 60' trčanja u zoni 2. | Today an easy 60-minute run in zone 2.
+Odradi 3x10' na pragu s 3' laganog između. | Do 3x10 min at threshold with 3 min easy between.
+Bicikl: 2 sata lagano, zadnjih 20' u sweet spotu. | Bike: 2 hours easy, last 20 min in sweet spot.
+Plivanje: 400 uplivavanje, 8x100 na 1:50, 200 isplivavanje. | Swim: 400 warm-up, 8x100 on 1:50, 200 cool-down.
+Drži puls ispod 150 cijelo vrijeme. | Keep your heart rate under 150 the whole time.
+Intervali: 5x4' na 280-290 W, pauza 3' lagano. | Intervals: 5x4 min at 280-290 W, 3 min easy rest.
+Tempo za dugi trening je 5:00-5:15/km. | Long-run pace is 5:00-5:15/km.
+Ovaj tjedan smanjujemo volumen, intenzitet ostaje. | This week volume comes down, intensity stays.
+Uzmi gel svakih 30 minuta na biciklu. | Take a gel every 30 minutes on the bike.
+Dan odmora, bez treninga. Spavaj. | Rest day, no training. Sleep.
+Kako ti je bilo na jučerašnjem treningu? | How did yesterday's session feel?
+Puls ti je bio previsok za laganu vožnju. | Your heart rate was too high for an easy ride.
+Odličan trening, točno u zonama. | Great session, right in the zones.
+Možemo prebaciti dugi bicikl na nedjelju? | Can we move the long ride to Sunday?
+Brick: 60' bicikl pa odmah 20' trčanja. | Brick: 60 min bike, then straight into a 20-min run.
+Vježbaj tranziciju: skidanje neoprena i obuvanje tenisica. | Practice the transition: wetsuit off, shoes on.
+Zagrij se 15 minuta prije glavnog dijela. | Warm up for 15 minutes before the main set.
+Noge 4x50 s daskom, ruke 4x100 s lopaticama. | Kick 4x50 with the board, pull 4x100 with paddles.
+Diši na svaki treći zaveslaj. | Breathe every third stroke.
+Na utrci kreni konzervativno, prvih 10 km ispod ciljnog tempa. | Start the race conservatively, first 10 km below goal pace.
+Zadnjih 5 km možeš pojačati ako se dobro osjećaš. | You can push the last 5 km if you feel good.
+Ako osjetiš bol u koljenu, prekini trening i javi mi. | If you feel knee pain, stop the workout and let me know.
+Pošalji mi podatke sa sata kad odradiš. | Send me the watch data once you're done.
+Sinkroniziraj Garmin da vidim trening. | Sync your Garmin so I can see the workout.
+Kadencu drži oko 90 okretaja. | Keep cadence around 90 rpm.
+Danas FTP test: 20 minuta all-out nakon zagrijavanja. | FTP test today: 20 minutes all-out after the warm-up.
+Tri dana prije utrke počni s punjenjem ugljikohidratima. | Start carb loading three days before the race.
+Doručak 3 sata prije starta, ništa novo. | Breakfast 3 hours before the start, nothing new.
+Pij svakih 15 minuta, ne čekaj žeđ. | Drink every 15 minutes, don't wait until you're thirsty.
+U moru plivaj uz bove i diži glavu svakih 6-8 zaveslaja. | In open water swim along the buoys and sight every 6-8 strokes.
+U T1 kaciga ide na glavu prije nego dirneš bicikl. | In T1 the helmet goes on before you touch the bike.
+Ovaj trening preskoči, oporavak je važniji. | Skip this workout, recovery matters more.
+Istezanje i valjak 10 minuta nakon trčanja. | Stretch and foam roll for 10 minutes after the run.
+Subota: dugi trening, 3 sata bicikl + 30' trčanja. | Saturday: long session, 3-hour ride + 30-min run.
+Trenažer: 2x20' na 90% FTP-a, kadenca 85-95. | Trainer: 2x20 min at 90% FTP, cadence 85-95.
+Tjedan je bio težak, sljedeći je lakši. | This week was hard, next week is lighter.
+Ne forsiraj, ovo je oporavni trening. | Don't force it, this is a recovery session.
+Tempo ti je 1:55 na 100 m, cilj za utrku je 1:50. | Your pace is 1:55 per 100 m, race goal is 1:50.
+Jesi li se oporavio od nedjelje? | Have you recovered from Sunday?
+Javi mi ujutro kako se osjećaš, pa odlučujemo. | Tell me how you feel in the morning and we'll decide.
+Pazi, najavljena je bura, uzmi vjetrovku. | Heads up, bura is forecast, take a windbreaker.
+Bravo, osobni rekord! Sad dva dana lagano. | Well done, PB! Now two easy days.
+Puls u mirovanju ti je povišen, danas samo lagano plivanje. | Your resting HR is elevated, just an easy swim today.
+Nemoj pretjerivati na brdima, drži ravnomjeran napor. | Don't overdo the hills, hold an even effort.
