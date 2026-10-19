@@ -22,8 +22,16 @@ export async function translate({ text, from, to, signal }) {
   })
   if (!res.ok) {
     let msg = `HTTP ${res.status}`
-    try { const j = await res.json(); if (j?.error) msg = j.error } catch { /* not json */ }
-    const err = new Error(msg); err.status = res.status; throw err
+    let detail = ''
+    try {
+      const j = await res.json()
+      if (j?.error) msg = j.error
+      if (j?.detail) {
+        // Upstream detail is usually JSON like {"error":{"message":"..."}}; pull the message out.
+        try { const d = JSON.parse(j.detail); detail = d?.error?.message || j.detail } catch { detail = j.detail }
+      }
+    } catch { /* not json */ }
+    const err = new Error(detail ? `${msg}: ${detail}` : msg); err.status = res.status; throw err
   }
   return res.json()
 }

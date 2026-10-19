@@ -48,24 +48,35 @@ export async function onRequestPost({ request, env }) {
     ],
   }
 
+  const call = async (body) => fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      'x-api-key': env.ANTHROPIC_API_KEY,
+      'anthropic-version': '2023-06-01',
+    },
+    body: JSON.stringify(body),
+  })
+
   let res
   try {
-    res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify(payload),
-    })
+    res = await call(payload)
+    // Some accounts reject cache_control (prompt caching not enabled). Retry once with a plain system string.
+    if (res.status === 400) {
+      const firstDetail = await res.text().catch(() => '')
+      res = await call({ ...payload, system: systemPrompt() })
+      if (!res.ok) {
+        const detail = await res.text().catch(() => '')
+        return json({ error: `translation service error ${res.status}`, detail: (detail || firstDetail).slice(0, 400) }, 502)
+      }
+    }
   } catch (e) {
     return json({ error: `upstream unreachable: ${e.message}` }, 502)
   }
 
   if (!res.ok) {
     const detail = await res.text().catch(() => '')
-    return json({ error: `translation service error ${res.status}`, detail: detail.slice(0, 300) }, 502)
+    return json({ error: `translation service error ${res.status}`, detail: detail.slice(0, 400) }, 502)
   }
 
   const data = await res.json()
