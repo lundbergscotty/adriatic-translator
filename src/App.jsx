@@ -305,9 +305,7 @@ export default function App() {
         </section>
       </main>
 
-      <footer className="text-center text-[13px] text-muted pb-8">
-        adriaticcoaching.com
-      </footer>
+      <div className="pb-8" />
 
       {needPass && (
         <div className="fixed inset-0 bg-blue-ink/50 backdrop-blur-sm z-30 flex items-center justify-center px-5">
